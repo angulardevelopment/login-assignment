@@ -1,0 +1,30 @@
+Here is what we have given you
+1.	A zip file containing this document and two more files
+2.	The two files contains the html for the login page and the home page(login.html and grid.html)
+
+
+Application
+1. THe application is a student management system and we are doing two small part of the application which are 
+          a. Login Page
+		  b. Students information grid
+2. The login page and students information grid html is given in zip file
+3. NOTE- SINCE THERE IS NO WEB API WHEREVER DATA IS REQUIRED THE APPROPRIATE LAYER IN ANGULAR WOULD RETURN IT IN VARIABLES AS  LIST OR A VARIABLES
+4. Login page has a user name and password text box and a login button. The only user name and password which should work is rammanohar@inncrewin.com and password Inncrewin123. Rest of the logins should fail with error being shown in the UI
+5. Once user logs in successfully using above username/password the students information page comes up which is only a grid with following columns
+            a. First Name
+			b. Last Name
+			c. Email address
+			d. Age
+			
+As said in point 3 above, the data will be filled up in the variables in the appropriate layer since API is not there
+6. ON clicking a particular row, a new page should open up which will bring in the details of the student to edit in text boxes.THe design can be just a list of text boxes and a Save button. The age should be a date field.
+7. On saving it should call the appropriate layer and since no api, that layer should return true and the UI should show success.
+
+
+Here is what you need to do
+1. Create the application
+2. Create the components with proper routing
+3. Create the pages with html given
+4. Bind the data properly and show the data as well as validation and other  things required for angular to bind
+5 PLEASE NOTE POINT 3. IT IS NOT ENOUGH TO HARD CODE THE VALUES IN SOME COMPONENTS BUT IN A DIFFERENT APPROPRIATE LAYER. THE CODE WILL BE EVALUATED USING STRUCTURE AS BASE
+

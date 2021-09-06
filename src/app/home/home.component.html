@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="grid-header-txt">Student Information</div>
+  <div class="grid-wrapper">
+      <div class="header">
+          <div class="row">
+              <div class="col-sm-3">First Name</div>
+              <div class="col-sm-3">Last Name</div>
+              <div class="col-sm-3">Email</div>
+              <div class="col-sm-3">Age</div>
+          </div>
+      </div>
+      <div class="grid-box"  *ngFor="let i of common.data; let j = index;" (click)="navigateToDetail(j)">
+          <div class="row">
+              <div class="col-sm-3">{{i.First}}</div>
+              <div class="col-sm-3">{{i.Last}}</div>
+              <div class="col-sm-3">{{i.Email}}</div>
+              <div class="col-sm-3">{{i.Age}}</div>
+          </div>
+      </div>
+      <!-- <div class="grid-box">
+          <div class="row">
+              <div class="col-sm-3">Ram</div>
+              <div class="col-sm-3">Manohar</div>
+              <div class="col-sm-3">rammanohar@gmail.com</div>
+              <div class="col-sm-3">30</div>
+          </div>
+      </div> -->
+  </div>
+</div>
