@@ -1,13 +1,26 @@
-
-    <div class="login-box-wrapper">
-      <div class="login-box">
-          <div class="header">Login</div>
-          <form class="login-info">
-              <input type="text" placeholder="Username" [(ngModel)]="userName" name="username" />
-              <input type="password" placeholder="Password"  [(ngModel)]="passWord" name="password" />
-              <div class="text-center">
-                  <button class="login-btn" (click)="navigateToHome()">LOGIN</button>
-              </div>
-          </form>
+<div class="login-box-wrapper">
+  <div class="login-box">
+    <div class="header">Login</div>
+    <form class="login-info">
+      <input
+        type="text"
+        placeholder="Username"
+        [(ngModel)]="userName"
+        name="username"
+      />
+      <input
+        type="password"
+        placeholder="Password"
+        [(ngModel)]="passWord"
+        name="password"
+      />
+      <div class="text-center">
+        <button class="login-btn" (click)="navigateToHome()">LOGIN</button>
       </div>
+    </form>
+
+    <div class="text-center">
+      <button class="login-btn" (click)="navigateToHome()">Google</button>
+    </div>
   </div>
+</div>
