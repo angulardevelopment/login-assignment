@@ -20,7 +20,7 @@ I'm Sam, and I'm passionate about product engineering and web development. I cre
 
 
 ### About the app
-Simple login app. 
+Simple login app un-admin pass-admin
 
 ## Subscribe and Stay Updated!
 

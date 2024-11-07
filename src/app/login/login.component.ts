@@ -16,7 +16,7 @@ export class LoginComponent implements OnInit {
 
   navigateToHome() {
 
-    if (this.userName === "rammanohar@inncrewin.com" && this.passWord === "Inncrewin123") {
+    if (this.userName === "admin" && this.passWord === "admin") {
       this.route.navigate(['/home']); // navigate to other page
 
     } else {

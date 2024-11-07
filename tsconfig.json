@@ -10,11 +10,20 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2015",
+    "target": "ES2020",
     "module": "es2020",
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths":{
+      "truecallerjs":["./node_modules/truecallerjs"],
+      "timers": [
+          "node_modules/timers-browserify"
+        ],
+        "stream": [
+          "node_modules/stream-browserify"
+        ],
+    }
   }
 }
